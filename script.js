@@ -17,8 +17,9 @@
         console.log(arraySize);
         if(arraySize && arraySize > 0 && arraySize <= 10){
             renderEmptyArray(arraySize)
+            arrayInitializeBtnNode.style.display = "none"
         }else{
-            window.alert("Please enter array size in between 1 to 20")
+            window.alert("Please enter array size in between 1 to 10")
         }
        
     })

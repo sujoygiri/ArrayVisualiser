@@ -22,7 +22,7 @@ body {
 
 .array-container {
   height: 4.5rem;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   margin: 2rem;
   display: flex;
   justify-content: center;
